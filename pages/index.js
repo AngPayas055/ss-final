@@ -71,41 +71,47 @@ export default function Home() {
           <div className="col-xl-4 pb-5">
             <div className="height-350">
             <div style={{ display: 'block', width: 350, padding: 30 }}>
-              <h4 className="text-center red-text">Dakgangjeong</h4>
+              <h4 className="text-center red-text mb-4">Dakgangjeong</h4>
                   <Carousel>
                       <Carousel.Item interval={2000}>
-                        <img
+                        <Image
                           className="d-block w-100"
                           src="/d-chk-dynamite.png"
                           alt="Image One"
+                          width={350} height={200}
                         />
+                        
                       </Carousel.Item>
                       <Carousel.Item interval={2000}>
-                        <img
+                        <Image
                         className="d-block w-100"
                         src="/d-chk-garlic-mayo.png"
                         alt="Image Two"
+                        width={350} height={200}
                         />
                       </Carousel.Item>
                       <Carousel.Item interval={2000}>
-                        <img
+                        <Image
                         className="d-block w-100"
                         src="/d-chk-tepanyaki.png"
                         alt="Image Two"
+                        width={350} height={200}
                         />
                       </Carousel.Item>
                       <Carousel.Item interval={2000}>
-                        <img
+                        <Image
                         className="d-block w-100"
                         src="/d-chk-honey-lemon.png"
                         alt="Image Two"
+                        width={350} height={200}
                         />
                       </Carousel.Item>
                       <Carousel.Item interval={2000}>
-                        <img
+                        <Image
                         className="d-block w-100"
                         src="/d-chk-sweet-chili.png"
                         alt="Image Two"
+                        width={350} height={200}
                         />
                       </Carousel.Item>
                   </Carousel>
@@ -119,41 +125,46 @@ export default function Home() {
 
           <div className="height-350">
           <div style={{ display: 'block', width: 350, padding: 30 }}>
-              <h4 className="text-center red-text">Corndog</h4>
+              <h4 className="text-center red-text mb-4">Corndog</h4>
                   <Carousel>
                       <Carousel.Item interval={2000}>
-                        <img
+                        <Image
                           className="d-block w-100"
                           src="/c-cali-cornia.png"
                           alt="Image One"
+                          width={350} height={200}
                         />
                       </Carousel.Item>
                       <Carousel.Item interval={2000}>
-                        <img
+                        <Image
                         className="d-block w-100"
                         src="/c-cheesy-bomb.png"
                         alt="Image Two"
+                        width={350} height={200}
                         />
                       </Carousel.Item>
                       <Carousel.Item interval={2000}>
-                        <img
+                        <Image
                         className="d-block w-100"
                         src="/c-chili.png"
                         alt="Image Two"
+                        width={350} height={200}
                         />
                       </Carousel.Item>
                       <Carousel.Item interval={2000}>
-                        <img
+                        <Image
                         className="d-block w-100"
                         src="/c-cornstar.png"
                         alt="Image Two"
+                        width={350} height={200}
                         />
                       </Carousel.Item>
                       <Carousel.Item interval={2000}>
-                        <img
+                        <Image
                         className="d-block w-100"
                         src="/c-original.png"
                         alt="Image Two"
+                        width={350} height={200}
                         />
                       </Carousel.Item>
                   </Carousel>
@@ -166,20 +177,22 @@ export default function Home() {
           <div className="col-xl-4">
             <div className=" height-350">
             <div style={{ display: 'block', width: 350, padding: 30 }}>
-              <h4 className="text-center red-text">Tempura</h4>
+              <h4 className="text-center red-text mb-4">Tempura</h4>
                   <Carousel>
                       <Carousel.Item interval={2000}>
-                        <img
+                        <Image
                           className="d-block w-100"
                           src="/t-allstar.png"
                           alt="Image One"
+                          width={350} height={200}
                         />
                       </Carousel.Item>
                       <Carousel.Item interval={2000}>
-                        <img
+                        <Image
                         className="d-block w-100"
                         src="/t-original.png"
                         alt="Image Two"
+                        width={350} height={200}
                         />
                       </Carousel.Item>
                   </Carousel>

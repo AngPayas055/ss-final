@@ -76,7 +76,7 @@ a {
   height: 330px;
   background-color: #f5c6d1;
   display: flex;
-  /* align-items: center; */
+  align-items: center;
   justify-content:center;
 }
 input {
