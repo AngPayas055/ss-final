@@ -1,6 +1,9 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Navbar from '../comps/Navbar'
+import React from 'react';
+import 'bootstrap/dist/css/bootstrap.css';
+import Carousel from 'react-bootstrap/Carousel';
 import styles from '../styles/Home.module.css'
 import { useState } from "react";
 import { useHistory } from "react-router-dom";
@@ -59,70 +62,139 @@ export default function Home() {
           <div className="row">
             <div className="col-12">
                <h3 className="text-center color-blue mt-80 ">Our menu</h3>
-               <h2 className="text-center color-light-pink mt-negative ">Satisfy your Cravings</h2>
+               <h2 className="text-center color-light-pink mt-negative mb-5 ">Satisfy your Cravings</h2>
             </div>
           </div>
-          <div className="row">
-            <div className="col-xl-4 col-md-4">
-              <div className="menu-img mt-80"> 
-              <div className="d-flex align-items-center justify-content-center">
-              <Image src="/maki.jpg" width={350} height={350} alt="Picture of the author" />
-              </div>         
-                <p className="color-white bg-blue text-center m-4 pt-2 pb-2">Maki Sushi</p>
-              </div>            
-            </div>
 
-            <div className="col-xl-4 col-md-4">
-              <div className="menu-img mt-80"> 
-              <div className="d-flex align-items-center justify-content-center">
-              <Image src="/maki.jpg" width={350} height={350} alt="Picture of the author" />
-              </div>         
-                <p className="color-white bg-blue text-center m-4 pt-2 pb-2">Maki Sushi</p>
-              </div>            
+          <div className="container ">
+        <div className="row ">
+          <div className="col-xl-4 pb-5">
+            <div className="height-350">
+            <div style={{ display: 'block', width: 350, padding: 30 }}>
+              <h4 className="text-center red-text">Dakgangjeong</h4>
+                  <Carousel>
+                      <Carousel.Item interval={2000}>
+                        <img
+                          className="d-block w-100"
+                          src="/d-chk-dynamite.png"
+                          alt="Image One"
+                        />
+                      </Carousel.Item>
+                      <Carousel.Item interval={2000}>
+                        <img
+                        className="d-block w-100"
+                        src="/d-chk-garlic-mayo.png"
+                        alt="Image Two"
+                        />
+                      </Carousel.Item>
+                      <Carousel.Item interval={2000}>
+                        <img
+                        className="d-block w-100"
+                        src="/d-chk-tepanyaki.png"
+                        alt="Image Two"
+                        />
+                      </Carousel.Item>
+                      <Carousel.Item interval={2000}>
+                        <img
+                        className="d-block w-100"
+                        src="/d-chk-honey-lemon.png"
+                        alt="Image Two"
+                        />
+                      </Carousel.Item>
+                      <Carousel.Item interval={2000}>
+                        <img
+                        className="d-block w-100"
+                        src="/d-chk-sweet-chili.png"
+                        alt="Image Two"
+                        />
+                      </Carousel.Item>
+                  </Carousel>
+              </div>
+              {/* carousel chicken */}
             </div>
-
-            <div className="col-xl-4 col-md-4">
-              <div className="menu-img mt-80"> 
-              <div className="d-flex align-items-center justify-content-center">
-              <Image src="/maki.jpg" width={350} height={350} alt="Picture of the author" />
-              </div>         
-                <p className="color-white bg-blue text-center m-4 pt-2 pb-2">Maki Sushi</p>
-              </div>            
-            </div>
-           </div> 
-           {/* row */}
-
-           <div className="row">
-            <div className="col-xl-4 col-md-4">
-              <div className="menu-img mt-80"> 
-              <div className="d-flex align-items-center justify-content-center">
-              <Image src="/maki.jpg" width={350} height={350} alt="Picture of the author" />
-              </div>         
-                <p className="color-white bg-blue text-center m-4 pt-2 pb-2">Maki Sushi</p>
-              </div>            
-            </div>
-
-            <div className="col-xl-4 col-md-4">
-              <div className="menu-img mt-80"> 
-              <div className="d-flex align-items-center justify-content-center">
-              <Image src="/maki.jpg" width={350} height={350} alt="Picture of the author" />
-              </div>         
-                <p className="color-white bg-blue text-center m-4 pt-2 pb-2">Maki Sushi</p>
-              </div>            
-            </div>
-
-            <div className="col-xl-4 col-md-4">
-              <div className="menu-img mt-80"> 
-              <div className="d-flex align-items-center justify-content-center">
-              <Image src="/maki.jpg" width={350} height={350} alt="Picture of the author" />
-              </div>         
-                <p className="color-white bg-blue text-center m-4 pt-2 pb-2">Maki Sushi</p>
-              </div>            
-            </div>
-           </div>
-           {/* row */}
-           </div>
             
+          </div>
+
+          <div className="col-xl-4 pb-5">
+
+          <div className="height-350">
+          <div style={{ display: 'block', width: 350, padding: 30 }}>
+              <h4 className="text-center red-text">Corndog</h4>
+                  <Carousel>
+                      <Carousel.Item interval={2000}>
+                        <img
+                          className="d-block w-100"
+                          src="/c-cali-cornia.png"
+                          alt="Image One"
+                        />
+                      </Carousel.Item>
+                      <Carousel.Item interval={2000}>
+                        <img
+                        className="d-block w-100"
+                        src="/c-cheesy-bomb.png"
+                        alt="Image Two"
+                        />
+                      </Carousel.Item>
+                      <Carousel.Item interval={2000}>
+                        <img
+                        className="d-block w-100"
+                        src="/c-chili.png"
+                        alt="Image Two"
+                        />
+                      </Carousel.Item>
+                      <Carousel.Item interval={2000}>
+                        <img
+                        className="d-block w-100"
+                        src="/c-cornstar.png"
+                        alt="Image Two"
+                        />
+                      </Carousel.Item>
+                      <Carousel.Item interval={2000}>
+                        <img
+                        className="d-block w-100"
+                        src="/c-original.png"
+                        alt="Image Two"
+                        />
+                      </Carousel.Item>
+                  </Carousel>
+              </div>
+              {/* carousel corndog */}
+          </div>
+          
+          </div>
+
+          <div className="col-xl-4">
+            <div className=" height-350">
+            <div style={{ display: 'block', width: 350, padding: 30 }}>
+              <h4 className="text-center red-text">Tempura</h4>
+                  <Carousel>
+                      <Carousel.Item interval={2000}>
+                        <img
+                          className="d-block w-100"
+                          src="/t-allstar.png"
+                          alt="Image One"
+                        />
+                      </Carousel.Item>
+                      <Carousel.Item interval={2000}>
+                        <img
+                        className="d-block w-100"
+                        src="/t-original.png"
+                        alt="Image Two"
+                        />
+                      </Carousel.Item>
+                  </Carousel>
+              </div>
+              {/* carousel tempura */}
+            </div>
+          
+          </div>
+        </div>
+      </div>
+
+           </div>
+
+   
+          
       </section>
 
       <section id="franchise">
@@ -130,7 +202,7 @@ export default function Home() {
            <div className="row">
               <div className="col-12 ">
                 <h3 className="text-center color-gold mt-80 ">Our Franchise</h3>
-                <h2 className="text-center text-grey mt-negative ">Made with Passion</h2>
+                <h2 className="text-center text-light-violet mt-negative ">Made with Passion</h2>
               </div>
             </div>
 

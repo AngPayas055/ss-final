@@ -33,6 +33,9 @@ a {
 .text-blue{
   color: #283595
 }
+.text-light-violet{
+  color: #e279f5
+}
 .color-white{
   color: white;
 }
@@ -44,6 +47,9 @@ a {
 }
 .color-light-pink{
   color: #ffd2d8;
+}
+.color-violet{
+  color: #d54cec;
 }
 .color-gold{
   color: #fbcc2e;
@@ -66,7 +72,13 @@ a {
 .bg-violet{
   background-color: #d54cec;
 }
-
+.height-350{
+  height: 330px;
+  background-color: #f5c6d1;
+  display: flex;
+  /* align-items: center; */
+  justify-content:center;
+}
 input {
   width: 100%;
   margin: 0 10px;
