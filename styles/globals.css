@@ -1,0 +1,124 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.mt-negative{
+  margin-top: -30px
+}
+.mt-80{
+  margin-top: 80px;
+}
+.mb-80{
+  margin-bottom: 80px;
+}
+.pb-80{
+  padding-bottom: 80px;
+}
+.red-text{
+  color: #f52050
+}
+.text-blue{
+  color: #283595
+}
+.color-white{
+  color: white;
+}
+.color-blue{
+  color: #283595;
+}
+.color-gold{
+  color: #fbcc2e;
+}
+.color-light-pink{
+  color: #ffd2d8;
+}
+.color-gold{
+  color: #fbcc2e;
+}
+.color-white{
+  color: #ffffff
+}
+.bg-pink{
+  background-color: #f5c6d1
+}
+.history{
+  background-color: #283595
+}
+.bg-blue{
+  background-color: #283595
+}
+.bg-black{
+  background-color: black;
+}
+.bg-violet{
+  background-color: #d54cec;
+}
+
+input {
+  width: 100%;
+  margin: 0 10px;
+}
+textarea {
+  width: 100%;
+}
+.franchise-details{
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  /* background-color: blanchedalmond; */
+  margin-left:  auto;
+  margin-bottom: 80px;
+}
+.franchise-img {
+  display:flex; 
+  justify-content: flex-end; 
+}
+.franchise-from{
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.form-button{
+  display: block;
+  margin: 0 auto;
+  padding: 5px 30px;
+  border-radius: 20px;
+  background-color: #f52050;
+  color: white;
+}
+.delete-button{
+  display: block;
+  padding: 5px 30px;
+  border-radius: 20px;
+  background-color: #f52050;
+  color: white;
+}
+.blog-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+}
+.blog-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+.blog-preview h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 8px;
+}
+.footer-copyright{
+  text-align: center;
+}
